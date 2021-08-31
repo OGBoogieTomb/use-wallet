@@ -8,12 +8,10 @@ export default async function init(): Promise<Connector> {
   )
   return {
     web3ReactConnector({
-      chainId,
       url,
       appName,
       appLogoUrl,
     }: {
-      chainId: number
       url: string
       appName: string
       appLogoUrl: string

@@ -33,11 +33,6 @@
     "prop-types": "^15.7.2",
     "regenerator-runtime": "^0.13.7"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
-  },
   "devDependencies": {
     "@types/react": "^16.9.49",
     "@types/react-dom": "^16.9.8",
